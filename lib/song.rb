@@ -44,7 +44,7 @@ class Song
             if !returned_hash[indiv_artist]
                 returned_hash[indiv_artist] = 0
             end
-            returned_hash[indiv_genre] += 1
+            returned_hash[indiv_artist] += 1
         end
         returned_hash
     end
